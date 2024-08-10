@@ -3,41 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Luis Meza</title>
-
-  <style>
-    .square {
-      animation: 500ms ease-in 0s 1 square-animation;
-    }
-
-    .square:hover {
-      border-radius: 4rem 3rem 2rem 2rem;
-      background-color: red;
-    }
-
-    @keyframes square-animation {
-      0% {
-          transform: translateY(100%);
-        }
-      100% {
-        transform: translateX(0);
-      }
-    }
-  </style>
-
 </head>
-<body 
-    style='
-    background: rgb(66,0,0);
-    background: linear-gradient(0deg, rgba(66,0,0,1) 0%, rgba(253,45,45,1) 100%);
-    '>
 
-    <div class='flex justify-evenly'>
-      <div class='flex flex-col justify-center'>
-        <h2>Luis Meza</h2>
-        <h1>Fullstack Developer</h1>
-      </div>
-      <div class='square bg-white h-[250px] w-[250px]'></div>
+<body>
+  <nav class='navbar'>
+    <a href='./index.html'>Luis Meza</a>
+    <div class='links'>
+      <a href="">home</a>
+      <a href="">projects</a>
+      <a href="">about me</a>
+      <a href="">blog</a>
+      <a href="">contact</a>
     </div>
+  </nav>
+
+  <div class="background"></div>
 </body>
+
 </html>
