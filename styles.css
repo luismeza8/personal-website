@@ -1,3 +1,6 @@
+* {
+  font-family: "Asul", sans-serif;
+}
 body {
   position: relative;
   margin: 0;
@@ -16,6 +19,33 @@ body {
   align-items: center;
   box-sizing: border-box;
   padding: 20px;
+}
+
+.home {
+  padding: 150px 180px 100px 180px;
+}
+
+.title {
+  width: 35%;
+}
+
+.developer {
+  text-align: end;
+  color: white;
+  font-size: 90px;
+  margin: 0;
+}
+
+.fullstack {
+  color: white;
+  font-size: 90px;
+  margin: 0;
+}
+
+.hi {
+  margin: 0;
+  color: white;
+  font-size: 36px;
 }
 
 .navbar a {
