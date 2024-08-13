@@ -5,7 +5,6 @@ body {
   position: relative;
   margin: 0;
   height: 100%;
-  background-color: #343222;
   display: flex;
   flex-direction: column;
   overflow-y: auto;
@@ -20,6 +19,7 @@ body {
   align-items: center;
   box-sizing: border-box;
   padding: 20px;
+  background-color: #110E11;
 }
 
 .home {
@@ -29,6 +29,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 150px 180px 100px 180px;
+  background: rgb(52,50,34);
+  background: linear-gradient(0deg, rgba(52,50,34,1) 0%, rgba(17,14,17,1) 100%);
 }
 
 .scroll {
@@ -41,13 +43,13 @@ body {
   font-size: 24px;
 }
 
-.projects {
+.about-me {
   height: 100vh;
   width: 100%;
-  background-color: red;
+  background-color: #343222;
 }
 
-.about-me {
+.projects {
   height: 100vh;
   width: 100%;
   background-color: blue;
