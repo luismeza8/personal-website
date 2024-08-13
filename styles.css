@@ -47,6 +47,56 @@ body {
   height: 100vh;
   width: 100%;
   background-color: #343222;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me h2 {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.about-me h3 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin: 0 0 12px 0;
+}
+
+.about-me-main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.about-me-container {
+  border: 2px solid white;
+  border-radius: 42px;
+  width: 80%;
+  height: 80%;
+  box-sizing: border-box;
+}
+
+.professional-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.personal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .projects {
@@ -61,7 +111,7 @@ body {
   background-color: yellow;
 }
 
-.title {
+.home-title {
   width: 50%;
 }
 
