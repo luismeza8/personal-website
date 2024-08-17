@@ -89,6 +89,10 @@ body {
   height: 100%;
 }
 
+.rest-logo {
+  background-color: white;
+}
+
 .personal-container {
   display: flex;
   flex-direction: column;
