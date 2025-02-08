@@ -31,18 +31,28 @@ body {
   flex-direction: column;
   align-items: center;
   width: 35%;
+  gap: 1rem;
 }
 
 .hero-title h1 {
   color: #C5C9C5;
   font-size: 3rem;
-  margin-bottom: 0.5rem;
 }
 
 .hero-title p {
   color: #C5C9C5;
   text-align: center;
   width: 65%;
+}
+
+.contact-btn {
+  background-color: #8BA4B0;
+  color: #181616;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  text-decoration: none;
 }
 
 .sub-title {
