@@ -12,7 +12,7 @@ body {
 }
 
 .separator {
-  background-color: white;
+  background-color: #C5C9C5;
   width: 60%;
   height: 1px;
 }
@@ -32,6 +32,12 @@ body {
   align-items: center;
   width: 35%;
   gap: 1rem;
+}
+
+.name {
+  color: #8BA4B0;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 .hero-title h1 {
@@ -91,6 +97,10 @@ body {
   align-items: center;
 }
 
+.tech-card:hover {
+  transform: scale(1.1);
+}
+
 .tech-card img {
   width: 64px;
 }
@@ -99,6 +109,14 @@ body {
   font-size: 0.95rem;
 }
 
+.blue-card:hover { background-color: #8ba4b0 }
+.yellow-card:hover { background-color: #c4b28a }
+.green-card:hover { background-color: #8a9a7b }
+.orange-card:hover { background-color: #FF9E64 }
+.purple-card:hover { background-color: #957FB8 }
+.black-card:hover { background-color: #a6a69c }
+
 .contact {
   margin: 5rem 0;
 }
+
